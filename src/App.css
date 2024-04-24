@@ -1,0 +1,6 @@
+.bg-back {
+  background-image: url("/src/assets/Hero Image/Rectangle 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

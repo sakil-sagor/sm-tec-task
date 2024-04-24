@@ -12,6 +12,14 @@ import featured2 from "./Thumbnail/Rectangle 18-11.png";
 import featured1 from "./Thumbnail/Rectangle 18-2.png";
 import featured3 from "./Thumbnail/Rectangle 18-22.png";
 
+import travel2 from "./Thumbnail/Rectangle 18-1.png";
+import travel3 from "./Thumbnail/Rectangle 18-2.png";
+import travel1 from "./Thumbnail/Rectangle 18.png";
+
+import auth1 from "./testimonial/Rectangle 30.png";
+import auth2 from "./testimonial/Rectangle 32.png";
+import auth3 from "./testimonial/Rectangle 33.png";
+
 export {
   airline1,
   airline2,
@@ -19,6 +27,9 @@ export {
   airline4,
   airline5,
   airline6,
+  auth1,
+  auth2,
+  auth3,
   featured1,
   featured2,
   featured3,
@@ -26,4 +37,7 @@ export {
   offer1,
   offer2,
   offer3,
+  travel1,
+  travel2,
+  travel3,
 };
