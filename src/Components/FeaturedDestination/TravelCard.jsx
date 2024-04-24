@@ -14,9 +14,10 @@ const TravelCard = ({ data }) => {
         <div className="my-4">
           <p className="text-black font-semibold">{data?.title}</p>
         </div>
-        <div className="flex items-center justify-between ">
+        <hr />
+        <div className="flex items-center  mt-2">
           <div className="flex  items-center justify-between">
-            <div className="flex justify-center items-center gap-2">
+            <div className="flex justify-center items-center gap-2 mr-4">
               <img
                 className="w-12 h-12 rounded-full"
                 src={data?.authorImg}
@@ -24,9 +25,8 @@ const TravelCard = ({ data }) => {
               />
               <p> {data?.author} </p>
             </div>
-            <div>
-              <button className="text-[#FFB700] ">Read More . . . > ></button>
-            </div>
+
+            <p className="text-[#FFB700] ">Read More . . . </p>
           </div>
         </div>
       </div>

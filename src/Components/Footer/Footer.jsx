@@ -1,12 +1,10 @@
-import { FaFacebookF, FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa6";
-import { logo } from "../../assets";
+import { flogo11, flogo12, flogo13, footLogo } from "../../assets";
 
 const Footer = () => {
   return (
-    <div className="bg-blue-900 py-10 ">
+    <div className="bg-[#006CE4] py-10 ">
       <div className="  text-gray-100 font-semibold container mx-auto px-2 ">
-        <div className=" grid grid-cols-2 md:grid-cols-4">
+        <div className=" grid grid-cols-2 md:grid-cols-4 justify-items-stretch">
           <div>
             <p>Address</p>
             <br />
@@ -44,17 +42,17 @@ const Footer = () => {
         <br />
         <hr />
         <br />
-        <div className="grid  grid-cols-1 md:grid-cols-3 justify-center items-center text-left">
+        <div className="grid  grid-cols-2 md:grid-cols-3 justify-items-stretch items-center text-left">
           <div>
-            <img src={logo} alt="" />
+            <img src={footLogo} alt="" />
           </div>
           <div>
-            <span className="text-white text-xs">@ copyright AIRBOOK</span>
+            <span className="text-white text-xs"> airbook @ copyright</span>
           </div>
-          <div className="hidden md:flex justify-center items-center gap-3 ">
-            <FaFacebookF className="text-white" />
-            <FaYoutube className="text-white" />
-            <FaLinkedin className="text-white" />
+          <div className="hidden md:flex justify-center items-end gap-4 ">
+            <img src={flogo11} alt="" />
+            <img src={flogo12} alt="" />
+            <img src={flogo13} alt="" />
           </div>
         </div>
       </div>

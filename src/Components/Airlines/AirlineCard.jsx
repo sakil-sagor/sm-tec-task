@@ -10,7 +10,7 @@ const AirlineCard = ({ data }) => {
           </div>
           <div className="my-4">
             <p className="text-[#006CE4] font-semibold">{data?.title}</p>
-            <div className="flex items-center gap-2">
+            <div className="md:flex items-center gap-2">
               <p className="flex items-center gap-1 text-sm">
                 <FaStar className="text-[#FFB700]" />
                 <span>{data?.rating}</span>

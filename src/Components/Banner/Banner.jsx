@@ -21,9 +21,13 @@ const Banner = () => {
                 <p>Round Trip</p>
               </div>
             </div>
-            <div>
-              <button>Traveller </button>
-              <button>Economy </button>
+            <div className="">
+              <button className="m-2 px-2 py-1 border rounded bg-gray-300">
+                Traveller{" "}
+              </button>
+              <button className="m-2 px-2 py-1 border rounded bg-gray-300">
+                Economy{" "}
+              </button>
             </div>
           </div>
           <div className="grid grid-col-1 md:grid-cols-5 justify-between">
