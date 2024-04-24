@@ -26,7 +26,7 @@ const Banner = () => {
               <button>Economy </button>
             </div>
           </div>
-          <div className="flex justify-between">
+          <div className="grid grid-col-1 md:grid-cols-5 justify-between">
             <div className="flex justify-center items-center border p-2 gap-3 ">
               <p className="border-r pr-2">DAC</p>
               <div>

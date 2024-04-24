@@ -1,4 +1,5 @@
-import { FaFacebookF, FaLinkedin, IoLogoYoutube } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa6";
 import { logo } from "../../assets";
 
 const Footer = () => {
@@ -43,16 +44,16 @@ const Footer = () => {
         <br />
         <hr />
         <br />
-        <div className="grid  grid-cols-1 md:grid-cols-3">
+        <div className="grid  grid-cols-1 md:grid-cols-3 justify-center items-center text-left">
           <div>
             <img src={logo} alt="" />
           </div>
           <div>
-            <span className="text-white">@copyright AIRBOOK</span>
+            <span className="text-white text-xs">@ copyright AIRBOOK</span>
           </div>
-          <div>
+          <div className="hidden md:flex justify-center items-center gap-3 ">
             <FaFacebookF className="text-white" />
-            <IoLogoYoutube className="text-white" />
+            <FaYoutube className="text-white" />
             <FaLinkedin className="text-white" />
           </div>
         </div>
