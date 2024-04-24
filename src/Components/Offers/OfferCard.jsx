@@ -7,7 +7,7 @@ const OfferCard = ({ data }) => {
         <div className="mr-4">
           <img className="w-full h-full" src={data?.img} alt="" />
         </div>
-        <div className="my-4">
+        <div className="my-4 ">
           <p className="text-gray-700 font-semibold text-sm ">{data?.sub}</p>
           <p className="text-[#006CE4] font-semibold">{data?.title}</p>
         </div>

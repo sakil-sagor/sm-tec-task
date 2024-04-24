@@ -1,6 +1,6 @@
 import airline2 from "./Airlines Icon/BBA.png";
 import airline3 from "./Airlines Icon/Emirates.png";
-import airline4 from "./Airlines Icon/Malaysia-1.png";
+import airline4 from "./Airlines Icon/Malaysia.png";
 import airline5 from "./Airlines Icon/Singapore Airlines.png";
 import airline6 from "./Airlines Icon/Turkish Airlines.png";
 import airline1 from "./Airlines Icon/american.png";

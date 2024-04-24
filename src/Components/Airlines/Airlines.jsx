@@ -57,7 +57,7 @@ const datas = [
     title: "Biman Bangladesh Airlines",
     rating: 4,
     review: 783,
-    img: airline1,
+    img: airline2,
   },
   {
     id: 8,
@@ -71,14 +71,14 @@ const datas = [
     title: "Emirates",
     rating: 5,
     review: 753,
-    img: airline1,
+    img: airline3,
   },
   {
     id: 10,
     title: "Biman Bangladesh Airlines",
     rating: 4,
     review: 783,
-    img: airline1,
+    img: airline2,
   },
   {
     id: 11,
@@ -92,7 +92,7 @@ const datas = [
     title: "Turkish Airlines",
     rating: 5,
     review: 753,
-    img: airline1,
+    img: airline6,
   },
 ];
 const Airlines = () => {
@@ -102,7 +102,7 @@ const Airlines = () => {
         <div>
           <Title title={"Popular Airlines"}></Title>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-12  justify-items-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4  ">
           {datas.map((data) => (
             <AirlineCard key={data.id} data={data}></AirlineCard>
           ))}
