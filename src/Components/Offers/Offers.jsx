@@ -1,3 +1,4 @@
+import { FaCircle, FaRegCircle } from "react-icons/fa";
 import { offer1, offer2, offer3 } from "../../assets";
 import Title from "../Shared/Title";
 import OfferCard from "./OfferCard";
@@ -33,6 +34,13 @@ const Offers = () => {
           {datas.map((data) => (
             <OfferCard key={data.id} data={data}></OfferCard>
           ))}
+        </div>
+      </div>
+      <div className="flex  justify-center">
+        <div className="flex gap-3 my-3 ">
+          <FaRegCircle className="text-sm" />
+          <FaCircle className="text-[#FFB700] text-sm" />
+          <FaRegCircle className="text-sm" />
         </div>
       </div>
     </div>
